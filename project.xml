@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+	
+	<meta title="Autobahx" package="com.specialcarstore.autobahx" version="1.0.0" company="SpecialCarStore" />
+	<app main="Main" path="Export" file="Autobahx" />
+	<window width="300" height="550" />
+	
+	<source path="Source" />
+	
+	<haxelib name="openfl" />
+	<haxelib name="flixel" />
+	
+	<assets path="Assets" rename="assets" exclude="openfl.svg" />
+	<icon path="Assets/openfl.svg" />
+	
+</project>
